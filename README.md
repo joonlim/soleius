@@ -24,3 +24,9 @@ git clone https://github.com/joonlim/soleius.git
 sudo soleius/install-mac.sh
 cp soleius/soleius.py ~/Desktop/soleius.command
 ```
+
+3. If successful, the `soleius.command` file should be  on on your desktop.
+
+![soleius.command on desktop](soleius.command.png)
+
+4. Double click the file to run.
