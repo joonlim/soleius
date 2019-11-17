@@ -20,6 +20,7 @@ Enter
 
 ```
 cd ~
+rm -rf soleius
 git clone https://github.com/joonlim/soleius.git
 sudo soleius/install-mac.sh
 cp soleius/soleius.py ~/Desktop/soleius.command
