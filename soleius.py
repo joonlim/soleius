@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import datetime
 import json
 import os
 import pprint
@@ -8,10 +9,9 @@ import requests
 import statistics
 import time
 
-from datetime import date
 from multiprocessing import Process, Manager
 
-OUTPUT = '{}/Desktop/soleius-{}.csv'.format(os.getenv('HOME'), date.today().strftime('%Y-%m-%d'))
+OUTPUT = '{}/Desktop/soleius-{}.csv'.format(os.getenv('HOME'), datetime.datetime.now().replace(microsecond=0).isoformat())
 
 
 start_time = time.time()
